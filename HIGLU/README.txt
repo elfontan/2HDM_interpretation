@@ -4,8 +4,7 @@ The QCD corrections are included for arbitrary Higgs and quark masses and increa
 The source code HIGLU provides the evaluation of the production of the Standard Model [SM] Higgs boson as well as the neutral Higgs bosons of the minimal supersymmetric extension [MSSM].
 The program HDECAY determines the decay widths and branching ratios of the Higgs bosons within the SM and the MSSM, including the dominant higher-order corrections. 
 
-- To setup HIGLU:
-To setup HIGLU:
+1) To setup HIGLU:
    ```
    mkdir HIGLU; cd HIGLU
    wget http://tiger.web.psi.ch/higlu/higlu.tar.gz
@@ -20,19 +19,19 @@ https://lhapdf.hepforge.org/lhapdf5/install
 
 Then edit the makefile and include the correct path.
 
-- To run HIGLU, settings can be changed in the higlu.in configuration file. Then: 
+2) To run HIGLU, settings can be changed in the higlu.in configuration file. Then: 
    ```
    make
    ./run
    ```
    
-- HIGLU Documentation
+3) Documentation:
 
+HIGLU
 http://tiger.web.psi.ch/higlu/
 https://arxiv.org/abs/hep-ph/9610350
 
-- HDECAY Documentation
-
+HDECAY
 https://arxiv.org/pdf/hep-ph/9704448.pdf
 https://arxiv.org/pdf/1810.00768.pdf
 
