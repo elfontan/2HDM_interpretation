@@ -1,0 +1,34 @@
+
+ VEGAS:
+ ======
+ ABSERR    =     0.00000    
+ POINTS    =      10000          ITERATIONS   =     5
+
+ GLUON FUSION: GG --> HIGGS
+ ==========================
+
+ P P COLLIDER
+ ============
+ ENERGY        =     13.0000     TEV
+
+   LO-LAMBDA_5 =    0.254973     GEV    LO-ALPHA_S (M_Z) =    0.118000    
+  NLO-LAMBDA_5 =    0.255099     GEV   NLO-ALPHA_S (M_Z) =    0.118000    
+
+ T-MASS        =     172.500     GEV     B-MASS    =     4.84131     GEV
+ C-MASS        =     1.43131     GEV
+
+ HIGGS  = H
+ ============================================================
+ M_H       =     20.0000      GEV
+ REN-SCALE =     10.0000      GEV   FAC-SCALE =     10.0000      GEV
+ G^H_B     =     0.00000      G^H_T     =     0.00000    
+ G^H_C     =     2.00000      C^H_G     =     0.00000    
+ G^H_CTG   =    0.494066-323
+ SIG0      =     43.5450     +-    0.403715E-04  PB
+ SIG1_VIRT =     17.3929     +-    0.161253E-04  PB
+ SIG1_GG   =     29.7975     +-    0.144762      PB
+ SIG1_GQ   =    -4.62529     +-    0.309423E-01  PB
+ SIG1_QQB  =    0.898779E-03 +-    0.723991E-06  PB
+ SIG_LO    =     43.5450     +-    0.403715E-04  PB
+ SIG_NLO   =     86.1110     +-    0.148032      PB
+

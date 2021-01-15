@@ -1,0 +1,43 @@
+
+ VEGAS:
+ ======
+ ABSERR    =     0.00000    
+ POINTS    =      10000          ITERATIONS   =     5
+
+ GLUON FUSION: GG --> HIGGS
+ ==========================
+
+ P P COLLIDER
+ ============
+ ENERGY        =     13.0000     TEV
+
+   LO-LAMBDA_5 =    0.254973     GEV    LO-ALPHA_S (M_Z) =    0.118000    
+  NLO-LAMBDA_5 =    0.255099     GEV   NLO-ALPHA_S (M_Z) =    0.118000    
+ NNLO-LAMBDA_5 =    0.197689     GEV  NNLO-ALPHA_S (M_Z) =    0.118000    
+
+ T-MASS        =     172.500     GEV     B-MASS    =     4.84131     GEV
+ C-MASS        =     1.43131     GEV
+
+ HIGGS  = H
+ ============================================================
+ M_H       =     5.00000      GEV
+ REN-SCALE =     2.50000      GEV   FAC-SCALE =     2.50000      GEV
+ G^H_B     =    0.500000      G^H_T     =     2.00000    
+ G^H_C     =     2.00000      C^H_G     =     0.00000    
+ G^H_CTG   =    0.494066-323
+ SIG0      =     3885.38     +-    0.305626E-02  PB
+ SIG1_VIRT =     4432.71     +-    0.348680E-02  PB
+ SIG1_GG   =     14612.7     +-     68.0018      PB
+ SIG1_GQ   =     2225.69     +-     16.7761      PB
+ SIG1_QQB  =     9.16896     +-    0.162955E-01  PB
+ SIG2_VIRT =    -359.279     +-    0.113899E-02  PB
+ SIG2_GG   =     4016.88     +-     15.5465      PB
+ SIG2_GQ   =     2774.54     +-     3.39333      PB
+ SIG2_QQB  =     47.1434     +-    0.357079E-01  PB
+ SIG2_QQP  =     240.024     +-    0.154517      PB
+ SIG2_QQ   =     78.1628     +-    0.116807      PB
+ SIG_LO    =     3885.38     +-    0.305626E-02  PB
+ SIG_NLO   =     25165.7     +-     70.0406      PB
+ SIG_NNLO  =     31963.1     +-     71.8257      PB
+ SIG_TOT   =     31963.1     +-     71.8257      PB
+
