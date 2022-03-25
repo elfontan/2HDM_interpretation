@@ -5,7 +5,7 @@
 #include "TCanvas.h"
 
 
-void fit() {
+void xsec_massStep0p1_fit() {
 
   gStyle->SetOptFit(1);
   const int nBins = 21;
