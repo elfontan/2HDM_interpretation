@@ -44,8 +44,3 @@ https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.131802
 
 - CMS at 7 TeV:
 https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.121801
-
-
-
-
-
