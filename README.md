@@ -5,7 +5,7 @@
 
 ### SOME COORDINATES for the calculation:
 
-- Mass Points: the list of mass points used in the limit calculation is included in the notebook and it is reported here
+- **Mass Points**: the list of mass points used in the limit calculation is included in the notebook and it is reported here
 ```
 1.176, 1.187, 1.199, 1.211, 1.223, 1.235, 1.248, 1.26, 1.273, 1.286, 1.299, 1.312, 1.325, 1.338, 1.351, 1.365, 1.378, 1.392, 1.406, 1.42, 1.434, 1.449, 1.463,
 1.478, 1.493, 1.508, 1.523, 1.538, 1.553, 1.569, 1.584, 1.6, 1.616, 1.632, 1.649, 1.665, 1.682, 1.699, 1.716, 1.733, 1.75, 1.768, 1.785, 1.803, 1.821, 1.839,
@@ -16,22 +16,19 @@
 7.482, 7.557, 7.632, 7.709, 7.786, 7.864
 ```
 
-- Acceptance:
-A polynomial fit is obtained starting from the acceptances for `mass = [1., 2., 4., 5., 6., 7., 8., 20.] GeV` (retrieved using the Pythia generator).
+- **Acceptance**: A polynomial fit is obtained starting from the acceptances for `mass = [1., 2., 4., 5., 6., 7., 8., 20.] GeV` (retrieved using the Pythia generator).
 The fit is then used in the notebook to evaluate the acceptance for each mass of interest.
 
-- Branching ratio:
-The list of branching ratios for each mass point under consideration is taken from `BR_IV_tgBeta05_allLimits.txt`.
+- **Branching ratio**: The list of branching ratios for each mass point under consideration is taken from `BR_IV_tgBeta05_allLimits.txt`.
 
-- Cross section:
-The list of cross sections for each mass point under is obtained by using a TGraph fit (see `allMassPoints_fit.C`) and is available in `xsec_muR05_muF05_allLimits.txt`.
+- **Cross section**: The list of cross sections for each mass point under is obtained by using a TGraph fit (see `allMassPoints_fit.C`) and is available in `xsec_muR05_muF05_allLimits.txt`.
 
-- Observed limit:
-The list of observed limits for each mass point is contained in `CMS_modelIndependentLimits_red_bothYears_twoIDs_90CL_allLimits_20220401.txt`.
+- **Observed limit**: The list of observed limits for each mass point is contained in `CMS_modelIndependentLimits_red_bothYears_twoIDs_90CL_allLimits_20220401.txt`.
 (The previous set of limits is also provided for easy comparison and as a sanity check of the updates of the notebook: `CMS_modelIndependentLimits_red_bothYears_twoIDs_90CL_20210723_doubleCheck.txt`)
 
-- Limits from other experiments:
-The [darkcast repository](https://gitlab.com/darkcast/releases) (see [arXiv:2206.08563v1](https://arxiv.org/pdf/2206.08563.pdf) as a reference) has been taken as a reference to include the combination of the results of different experiments in the same plot. The list of type IV 2HDM+S limits of LHCb has been retrieved from the [supplementary material](http://cds.cern.ch/record/2722971/files/?docname=LHCb-PAPER-2020-013&version=all) of the [LHCb paper](https://link.springer.com/article/10.1007%2FJHEP10%282020%29156). BaBar results are taken from the theoretical paper [JHEP 03 (2018) 178](https://link.springer.com/article/10.1007/JHEP03(2018)178). The two list of limits relevant for the plot are included in the repository.
+- **Limits from other experiments**: The [darkcast repository](https://gitlab.com/darkcast/releases) (see [arXiv:2206.08563v1](https://arxiv.org/pdf/2206.08563.pdf) as a reference) has been taken as a reference to include the combination of the results of different experiments in the same plot. 
+The list of type IV 2HDM+S limits of LHCb has been retrieved from the [supplementary material](http://cds.cern.ch/record/2722971/files/?docname=LHCb-PAPER-2020-013&version=all) of the [LHCb paper](https://link.springer.com/article/10.1007%2FJHEP10%282020%29156). BaBar results are taken from the theoretical paper [JHEP 03 (2018) 178](https://link.springer.com/article/10.1007/JHEP03(2018)178). 
+The two lists of limits relevant for the plot are included in the repository.
 
 
 ### NOTE for including CMS style in the plots
