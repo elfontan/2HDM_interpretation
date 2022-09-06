@@ -30,6 +30,9 @@ The list of cross sections for each mass point under is obtained by using a TGra
 The list of observed limits for each mass point is contained in `CMS_modelIndependentLimits_red_bothYears_twoIDs_90CL_allLimits_20220401.txt`.
 (The previous set of limits is also provided for easy comparison and as a sanity check of the updates of the notebook: `CMS_modelIndependentLimits_red_bothYears_twoIDs_90CL_20210723_doubleCheck.txt`)
 
+- Limits from other experiments:
+The [darkcast repository](https://gitlab.com/darkcast/releases) (see [arXiv:2206.08563v1](https://arxiv.org/pdf/2206.08563.pdf) as a reference) has been taken as a reference to include the combination of the results of different experiments in the same plot. The list of type IV 2HDM+S limits of LHCb has been retrieved from the [supplementary material](http://cds.cern.ch/record/2722971/files/?docname=LHCb-PAPER-2020-013&version=all) of the [LHCb paper](https://link.springer.com/article/10.1007%2FJHEP10%282020%29156). BaBar results are taken from the theoretical paper [JHEP 03 (2018) 178](https://link.springer.com/article/10.1007/JHEP03(2018)178). The two list of limits relevant for the plot are included in the repository.
+
 
 ### NOTE for including CMS style in the plots
 A dedicated package that includes a set of helpers for matplotlib to more easily produce plots with the classic CMS style is installed ([mphep](https://github.com/scikit-hep/mplhep)):
@@ -39,14 +42,10 @@ pip install mplhep
 
 ### USEFUL REFERENCES:
 
-- Collider constraints on light pseudoscalars - JHEP 03 (2018) 178:
-https://link.springer.com/article/10.1007/JHEP03(2018)178
+- Collider constraints on light pseudoscalars - [JHEP 03 (2018) 178](https://link.springer.com/article/10.1007/JHEP03(2018)178)
 
-- LHCB PAPER - JHEP 10 (2020) 156:
-https://link.springer.com/article/10.1007%2FJHEP10%282020%29156
+- LHCb PAPER - [JHEP 10 (2020) 156](https://link.springer.com/article/10.1007%2FJHEP10%282020%29156)
 
-- CMS EXO-19-018 - Phys. Rev. Lett. 124, 131802:
-https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.131802
+- CMS EXO-19-018 - [Phys. Rev. Lett. 124, 131802](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.131802)
 
-- CMS at 7 TeV:
-https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.121801
+- [CMS results at 7 TeV](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.121801]
