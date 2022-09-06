@@ -45,4 +45,4 @@ pip install mplhep
 
 - CMS EXO-19-018 - [Phys. Rev. Lett. 124, 131802](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.131802)
 
-- [CMS results at 7 TeV](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.121801]
+- [CMS results at 7 TeV](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.121801)
