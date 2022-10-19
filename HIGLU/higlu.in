@@ -30,14 +30,14 @@ COUPLINGS:  G_B=BOTTOM  G_T=TOP  G_C=CHARM  G_SB1/2=SBOTTOM  G_ST1/2=STOP
 ==========  (MODEL = 0) C_G=DIM5 HGG COUPLING AT SCALE CG_SCALE
                         SILH=1: SILH, SILH=0: NON LIN
  
-G_T      = 2.D0
-G_B      = 0.5D0
-G_C      = 2.D0
+G_T     =  2.D0
+G_B     =  0.5D0
+G_C     =  2.D0
 G_SB1   =  0.D0
 G_SB2   =  0.D0
 G_ST1   =  0.D0
 G_ST2   =  0.D0
-C_G     =  0.0D0
+C_G     =  0.D0
 CG-SCALE=  125.D0
 SILH    =  0
 ---------------------------------------------------------------
@@ -71,9 +71,9 @@ MU_2     = 0.D0
 HIGGS TYPE AND MASS [GEV]: 1 = HEAVY SCALAR 2 = PSEUDOSCALAR 3 = LIGHT SCALAR
 ==========================  INDIVIDU = 0: M_HIGGS = M_A
 
-TYPE     = 1
+TYPE     = 2
 INDIVIDU = 0
-M_HIGGS  = 4.2D0
+M_HIGGS  = 20.0D0
 --------------------------------------------------------------- 
 SCALES: [GEV] MU = MU_1*M_HIGGS + MU_2:   RENORMALIZATION SCALE
 =======        Q =  Q_1*M_HIGGS +  Q_2:     FACTORIZATION SCALE
@@ -115,21 +115,21 @@ STRUCTURE FUNCTIONS: STFUN: 0 = LHAPDF  1 = GRV   2 = CTEQ6
                      ISETERR:  >0: 90% CL   <0: 68% CL
 SCHEME  =  0
 STFUN   =  0
-PDFPATH =  Grids
+PDFPATH =  /afs/cern.ch/work/e/elfontan/private/DarkPhotonSearch_Scouting/CMSSW_10_6_19/src/2HDM_Limits/HIGLU/LHAPDF-6.3.0-install/share/LHAPDF/
 
 LO
 --
-PDFNAME =  PDF4LHC15_nlo_100
+PDFNAME =  NNPDF30_nlo_as_0118
 NSET    =  0
 
 NLO
 ---
-PDFNAME =  PDF4LHC15_nlo_100
+PDFNAME =  NNPDF30_nlo_as_0118
 NSET    =  0
 
 NNLO
 ----
-PDFNAME =  PDF4LHC15_nnlo_30
+PDFNAME =  NNPDF30_nnlo_as_0118
 NSET    =  0
 -------------------------------------------------- 
 ALPHA_S (M_Z):

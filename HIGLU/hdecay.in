@@ -51,9 +51,9 @@ MEP      = 450.D0
   PARAM: 1 (masses), 2 (lambda_i)
 
 PARAM    = 1
-TYPE     = 1
+TYPE     = 4
 ********************
-TGBET2HDM= 1.5D0
+TGBET2HDM= 0.5D0
 M_12^2   = 25600.D0
 ******************** PARAM=1:
 ALPHA_H  = -0.14D0

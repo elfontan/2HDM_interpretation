@@ -58,7 +58,7 @@ and check that the `LD_LIBRARY_PATH` is properly modified:
 
 3) Running HIGLU
 
-To run HIGLU, settings can be changed in the higlu.in configuration file. Then: 
+To run HIGLU, settings can be changed in the `higlu.in` configuration file, for example the mass and type of the mediator (M_HIGGS, TYPE) or the scales (MU_1 and MU_2). Then: 
    ```
    make
    ./run higlu.in
@@ -66,12 +66,12 @@ To run HIGLU, settings can be changed in the higlu.in configuration file. Then:
    
 4) Documentation:
 
-HIGLU
-http://tiger.web.psi.ch/higlu/
-https://arxiv.org/abs/hep-ph/9610350
+**HIGLU**
+  * http://tiger.web.psi.ch/higlu/
+  * https://arxiv.org/abs/hep-ph/9610350
 
-HDECAY
-https://arxiv.org/pdf/hep-ph/9704448.pdf
-https://arxiv.org/pdf/1810.00768.pdf
+**HDECAY**
+  * https://arxiv.org/pdf/hep-ph/9704448.pdf
+  * https://arxiv.org/pdf/1810.00768.pdf
 
 
